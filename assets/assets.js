@@ -103,7 +103,7 @@ export const workData = [
 ]
 
 export const skillsData = [
-    { icon: assets.web_icon, title: 'Frontend development', description: 'Ik wil een beter websites kunnen bouwen en mijn creativiteit erin loslaten.', link: '' },
+    { icon: assets.web_icon, title: 'Frontend development', description: 'Ik wil beter websites kunnen bouwen en mijn creativiteit erin loslaten.', link: '' },
     { icon: assets.mobile_icon, title: 'Interaction design', description: 'Ik wil de schakel tussen gebruiker en product goed doorgronden om zo een beter ontwerper te zijn.', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'Op het gebied van UI/UX design wil ik de gebruiker beter aansluiten op het product en dit optimaliseren.', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'De visuele taal van een klant goed overbrengen naar de gebruiker.', link: '' },
