@@ -7,18 +7,36 @@ const Vaardigheden = () => {
   return (
     <motion.div
     initial={{ opacity: 0 }}
-    whileInView={{ y: 0, opacity: 1 }}
-    transition={{duration: 1.3, delay: 0.5 }}
+    whileInView={{ opacity: 1 }}
+    transition={{duration: 1 }}
     id='vaardigheden' className='w-full px-[12%] py-10 scroll-mt-20'>
-        <h4 className='text-center mb-2 text-lg font-Ovo' >Waar wil ik mezelf in ontwikkelen?</h4>
-        <h2 className='text-center text-5xl font-Ovo' >Mijn vaardigheden</h2>
-      
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo' >In deze vakgebieden wil ik mezelf graag verdiepen en meer ervaring opdoen. 
-        Met projecten heb ik al kennis gemaakt met deze vakgebieden en leergierig gemaakt om een verbeteringslag te maken.</p>
 
-<div className='grid grid-cols-auto gap-6 my-10'>
+        <motion.h4
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
+        className='text-center mb-2 text-lg font-Ovo' >Waar wil ik mezelf in ontwikkelen?</motion.h4>
+        <motion.h2
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        className='text-center text-5xl font-Ovo' >Mijn vaardigheden</motion.h2>
+      
+      <motion.p
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.7, duration: 0.5 }}
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo' >In deze vakgebieden wil ik mezelf graag verdiepen en meer ervaring opdoen. 
+        Met projecten heb ik al kennis gemaakt met deze vakgebieden en leergierig gemaakt om een verbeteringslag te maken.</motion.p>
+
+<motion.div
+initial={{ opacity: 0 }}
+whileInView={{ opacity: 1 }}
+transition={{ delay: 0.9, duration: 0.6 }}
+className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5 dark:text-black'>
     {skillsData.map(({icon, title, description, link}, index)=>(
-        <div 
+        <motion.div
+        whileHover={{scale: 1.05 }}
         key={index} 
         className='border border-gray-400 rounded-lg px-8 py-12 
           hover:shadow-black cursor-pointer hover:bg-lightHover 
@@ -31,9 +49,9 @@ const Vaardigheden = () => {
             <a href={link} className='flex items-center gap-2 text-sm mt-5'>
                 Lees meer <Image src={assets.right_arrow} alt='pijltje' className='w-4'/>
             </a>
-        </div>
+        </motion.div>
         ))}
-</div>
+</motion.div>
 
     </motion.div>
   )

@@ -103,14 +103,14 @@ export const workData = [
 ]
 
 export const skillsData = [
-    { icon: assets.web_icon, title: 'Frontend development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Interaction design', description: '...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend development', description: 'Ik wil een beter websites kunnen bouwen en mijn creativiteit erin loslaten.', link: '' },
+    { icon: assets.mobile_icon, title: 'Interaction design', description: 'Ik wil de schakel tussen gebruiker en product goed doorgronden om zo een beter ontwerper te zijn.', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX design', description: 'Op het gebied van UI/UX design wil ik de gebruiker beter aansluiten op het product en dit optimaliseren.', link: '' },
+    { icon: assets.graphics_icon, title: 'Graphics design', description: 'De visuele taal van een klant goed overbrengen naar de gebruiker.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Opleiding', description: 'Bachelor tweedejaars Communicatie Multimedia Design' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projecten', description: 'verscheidene projecten op de hva' }
 ];
